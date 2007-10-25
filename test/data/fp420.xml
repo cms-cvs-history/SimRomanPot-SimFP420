@@ -11,15 +11,15 @@
 </ConstantsSection>
 
 <SolidSection label="fp420.xml">
- <Tubs name="OFP420" rMin="[Rmin]" rMax="[HallR]" dz="[HallZ]" 
+ <Tubs name="OCMS" rMin="[Rmin]" rMax="[HallR]" dz="[HallZ]" 
                    startPhi="0*deg" deltaPhi="360*deg"/>
  <Tubs name="FP420E" rMin="[Rmin]" rMax="[HfpR]" dz="[HfpZ]" 
                    startPhi="0*deg" deltaPhi="360*deg"/>
 </SolidSection>
 
 <LogicalPartSection label="fp420.xml">
- <LogicalPart name="OFP420" category="unspecified">
-  <rSolid name="OFP420"/>
+ <LogicalPart name="OCMS" category="unspecified">
+  <rSolid name="OCMS"/>
   <rMaterial name="materialsfp420:Vacuum"/>
  </LogicalPart>
  <LogicalPart name="FP420E" category="unspecified">
@@ -42,7 +42,7 @@
 <!--  -->
 <PosPartSection label="fp420.xml">
  <PosPart copyNumber="1">
-   <rParent name="fp420:OFP420"/>
+   <rParent name="fp420:OCMS"/>
    <rChild name="fp420:FP420E"/>
   <Translation x="0*fm" y="0*fm" z="[ZMainShift]" />
   <rRotation name="FP420Rot:FP420R090"/>
