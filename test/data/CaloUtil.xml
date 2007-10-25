@@ -6,7 +6,7 @@
    <PartSelector path="//CALO" />
    <Parameter name="SensitiveDetector" value="CaloTrkProcessing" eval="false"/>
    <Parameter name="ReadOutName" value="CaloHitsTk" eval="false"/>
-   <Parameter name="Calorimeter" value="OFP420"       eval="false"/>
+   <Parameter name="Calorimeter" value="OCMS"       eval="false"/>
     <Parameter name="Inside"      value="NotFound"   eval="false"/>
   </SpecPar>
 </SpecParSection>
