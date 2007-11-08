@@ -1,22 +1,31 @@
-###include "CommonTools/SiStripZeroSuppression/data/SiStripNoiseService.cfi"
-
 module FP420Digi =  DigitizerFP420 {
-#--------------------------------
-      string SimProducer = "SimDigitizer"	
-       int32 Verbosity     = 1
-       int32 NumberFP420Stations = 4
-       int32 NumberFP420SPlanes = 9
-###-----FP420DigiMain 
-        int32 Verbosity     = 1
-        double ElectronFP420PerAdc = 300.0
-        double AdcFP420Threshold = 2.
-        bool NoFP420Noise = false     
-#--------------------------------
-###---ZeroSuppressFP420
- 	  int32 Verbosity     = 1
-          int32 FedFP420Algorithm = 1
-          double FedFP420LowThreshold = 3.
-          double FedFP420HighThreshold = 4.
-#-------------------------------------
+    #--------------------------------
+    #--------------------------------
+    vstring ROUList = {"FP420SI"}	
+    #--------------------------------
+    #--------------------------------
+    untracked int32 VerbosityLevel = 0		 
+    #--------------------------------
+    ###-----------------------------DigitizerFP420 
+    #--------------------------------
+    int32 NumberFP420Stations = 4
+    int32 NumberFP420SPlanes = 9
+    #--------------------------------
+    ###-----------------------------FP420DigiMain
+    #--------------------------------
+    double ElectronFP420PerAdc = 300.0
+    double AdcFP420Threshold = 5.
+    bool NoFP420Noise = false     
+    bool AddNoisyPixels = true     
+    double z420 = 420000.0
+    double zD2 = 4000.0
+    double zD3 = 8000.0
+    #--------------------------------
+    ###---------------------------ZeroSuppressFP420
+    #--------------------------------
+    int32 FedFP420Algorithm = 1
+    double FedFP420LowThreshold = 3.5
+    double FedFP420HighThreshold = 4.
+    #-------------------------------------
+    #--------------------------------
 }
-#replace siStripDigis.UseCalibDataFromDB  = false
