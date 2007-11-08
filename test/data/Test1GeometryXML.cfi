@@ -1,15 +1,13 @@
 es_source = XMLIdealGeometryESSource {
  	vstring geomXMLFiles = {
-		"Geometry/FP420CommonData/data/fp420.xml",
-                "Geometry/FP420CommonData/data/zzzrectangle.xml",
+		"SimRomanPot/SimFP420/test/data/fp420.xml",
+                "SimRomanPot/SimFP420/test/data/zzzrectangle.xml",
 		"Geometry/FP420CommonData/data/materialsfp420.xml",
 		"Geometry/FP420CommonData/data/FP420Rot.xml",
-		"SimG4CMS/FP420/test/data/CaloUtil.xml",
  		"Geometry/FP420SimData/data/fp420sens.xml"
 	}
 	string rootNodeName = "fp420:OCMS"
 }
-
 
 
 
