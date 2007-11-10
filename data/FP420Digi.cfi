@@ -9,7 +9,7 @@ module FP420Digi =  DigitizerFP420 {
     ###-----------------------------DigitizerFP420 
     #--------------------------------
     int32 NumberFP420Stations = 4
-    int32 NumberFP420SPlanes = 9
+    int32 NumberFP420SPlanes = 6
     #--------------------------------
     ###-----------------------------FP420DigiMain
     #--------------------------------
