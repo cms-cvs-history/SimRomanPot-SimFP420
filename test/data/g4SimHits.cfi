@@ -56,7 +56,8 @@
 	 string type = "SimG4Core/Physics/QGSP_EMV" ## G4.7.1-like backup option
          bool DummyEMPhysics = false
          bool CutsPerRegion = true
-         double DefaultCutValue = 1.0  # cuts in cm
+         ##double DefaultCutValue = 1.0  # cuts in cm
+         double DefaultCutValue = 1000.0  # cuts in cm
          double G4BremsstrahlungThreshold = 0.5 # cut in GeV
          untracked int32 Verbosity = 0   # 1 will print cuts as they get set fdrom DD
                                          # 2 will do as 1 + will dump Geant4 table of cuts
@@ -195,7 +196,7 @@
          double BirkC2 = 9.6e-6
       }
  	  	  		 PSet FP420SD = {
-      	  			untracked  int32 Verbosity  = 2
+      	  			untracked  int32 Verbosity  = 0
   				    }
       PSet HcalTB06BeamSD = {
          bool   UseBirkLaw = false
