@@ -47,6 +47,12 @@
   <Translation x="0*fm" y="0*fm" z="[ZMainShift]" />
   <rRotation name="FP420Rot:FP420R090"/>
  </PosPart>
+ <PosPart copyNumber="2">
+   <rParent name="fp420:OCMS"/>
+   <rChild name="fp420:FP420E"/>
+  <Translation x="0*fm" y="0*fm" z="-[ZMainShift]" />
+  <rRotation name="FP420Rot:FP420R090"/>
+ </PosPart>
 </PosPartSection>
 
 
