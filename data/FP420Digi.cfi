@@ -10,7 +10,7 @@ module FP420Digi =  DigitizerFP420 {
     #-real numbers are: these numbers minus one!!!
     #--------------------------
     int32 NumberFP420Detectors = 3
-    int32 NumberFP420Stations  = 4
+    int32 NumberFP420Stations  = 3
     int32 NumberFP420SPlanes   = 6
     #--------------------------------
     ###-----------------------------FP420DigiMain
