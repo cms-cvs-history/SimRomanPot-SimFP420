@@ -22,6 +22,8 @@ module FP420Digi =  DigitizerFP420 {
     double z420 = 420000.0
     double zD2  = 4000.0
     double zD3  = 8000.0
+    bool ApplyTofCut   = true     
+    double LowtofCutAndTo200ns  = 1350.0
     #--------------------------------
     ###---------------------------ZeroSuppressFP420
     #--------------------------------
