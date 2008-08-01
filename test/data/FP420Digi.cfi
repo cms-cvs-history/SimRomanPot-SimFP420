@@ -1,7 +1,7 @@
 module FP420Digi =  DigitizerFP420 {
     #--------------------------------
     #--------------------------------
-    vstring ROUList = {"FP420SI"}	
+    vstring ROUList = {"g4SimHitsFP420SI"}	
     #--------------------------------
     #--------------------------------
     untracked int32 VerbosityLevel = 0		 
@@ -22,7 +22,7 @@ module FP420Digi =  DigitizerFP420 {
     double z420 = 420000.0
     double zD2  = 4000.0
     double zD3  = 8000.0
-    bool ApplyTofCut   = false
+    bool ApplyTofCut   = true
     double LowtofCutAndTo200ns  = 1350.0
     #--------------------------------
     ###---------------------------ZeroSuppressFP420
