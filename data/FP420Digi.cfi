@@ -1,7 +1,7 @@
 module FP420Digi =  DigitizerFP420 {
     #--------------------------------
     #--------------------------------
-    vstring ROUList = {"FP420SI"}	
+    vstring ROUList = {"g4SimHitsFP420SI"}	
     #--------------------------------
     #--------------------------------
     untracked int32 VerbosityLevel = 0		 
